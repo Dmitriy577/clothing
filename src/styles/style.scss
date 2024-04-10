@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  transition: .3s all;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+@import "./header/header";
+@import "./header/header";
+@import "./cart/cart";
+@import "NewPost/NewPost";
+@import "Collection/Slider";
+@import "Footer/footer";
+@import "Us/Us";
+@import "OneProduct/OneProduct";
+@import "./store/store";
+@import "register/register";
+@import "checkout/checkout";

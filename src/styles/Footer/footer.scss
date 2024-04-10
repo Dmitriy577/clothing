@@ -1,0 +1,13 @@
+.footer{
+  padding: 50px 0;
+  background: #F1EADC;
+  &__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__p{
+font-size: 50px;
+}
+
+}

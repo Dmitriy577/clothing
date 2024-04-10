@@ -1,0 +1,86 @@
+.store {
+  padding: 20px 0 20px;
+  &__title {
+    font-weight: 500;
+    font-size: 55px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  &__list {
+    margin: 30px 0;
+    display: flex;
+    gap: 10px;
+  }
+  &__item {
+    border: 1px solid #000000;
+    padding: 19px 65px;
+    cursor: pointer;
+    &:hover, &.active {
+      background: black;
+      color: #FFFFFF;
+    }
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__card {
+    width: calc(33.33333% - 20px);
+    text-align: center;
+    &-link {
+      position: relative;
+      display: flex;
+
+      &:hover::before {
+        z-index: 4;
+        content: '→';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(110, 156, 159, 0.64);
+        color: white;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+    }
+    &-img {
+      width: 100%;
+      height: 470px;
+      object-fit: cover;
+    }
+    &-title {
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+    &-price {
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      color: #998E78;
+    }
+  }
+  &__show {
+    margin: 30px 0;
+  }
+  &__pages {
+    display: flex;
+    justify-content: center;
+  }
+  &__select {
+    border: 1px solid #000000;
+    padding: 19px 5px;
+  }
+  &__genders {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+}

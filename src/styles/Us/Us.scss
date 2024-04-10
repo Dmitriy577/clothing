@@ -1,0 +1,23 @@
+.us{
+  padding-bottom: 40px;
+  &__title{
+	text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+    color: #000000;
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    width: calc(33.33333% - 30px);
+  }
+}
