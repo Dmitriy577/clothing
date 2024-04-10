@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clothing/static/css/main.62eda4f5.css",
+    "main.js": "/clothing/static/js/main.e7725076.js",
+    "static/media/dmitriy-7DD6tfTKqS4-unsplash 1.png": "/clothing/static/media/dmitriy-7DD6tfTKqS4-unsplash 1.a5d1d825364cf254130e.png",
+    "static/media/logo.png": "/clothing/static/media/logo.a014f1e42dcbaf0fe662.png",
+    "static/media/Лого.svg": "/clothing/static/media/Лого.cd294b3813a11a3fe5c0ed07d62a2542.svg",
+    "index.html": "/clothing/index.html",
+    "main.62eda4f5.css.map": "/clothing/static/css/main.62eda4f5.css.map",
+    "main.e7725076.js.map": "/clothing/static/js/main.e7725076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62eda4f5.css",
+    "static/js/main.e7725076.js"
+  ]
+}
