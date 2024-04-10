@@ -47,7 +47,7 @@ export const Context = (props) => {
     }
 
     const loginUser = (data) => {
-        axios.post('http://localhost:3001/login', {...data, orders: []})
+        axios.post('https://c61db6ccb97445c0.mokky.dev/login', {...data, orders: []})
             .then((res) => {
                 localStorage.setItem('user', JSON.stringify(res.data.user))
                 setUser(res.data.user)
